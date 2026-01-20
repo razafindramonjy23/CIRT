@@ -41,7 +41,7 @@ const translations = {
     'hero.slide2.subtitle': 'Directive sur les démarches et procédures administratives à Madagascar',
     'hero.slide3.title': 'Vision pour la transformation des services numériques',
     'hero.slide3.subtitle': 'Soyons « agile »',
-    'hero.slide4.title': 'Unité de Gouvernance Digitale forme une équipe',
+    'hero.slide4.title': 'CIRT forme une équipe',
     'hero.slide4.subtitle': 'Venez nous rejoindre',
     'hero.learnMore': 'Lire l\'article',
     'hero.visitSite': 'Visiter le site web',
@@ -55,7 +55,7 @@ const translations = {
     'hero.slide2.subtitle': 'Torolalana momba ny fomba sy ny fombafomba ara-pitantanana ao Madagasikara',
     'hero.slide3.title': 'Fomba fijery momba ny fanovana ny serivisy nomerika',
     'hero.slide3.subtitle': 'Aoka ho "agile" isika',
-    'hero.slide4.title': 'Unité de Gouvernance Digitale miforona ekipa',
+    'hero.slide4.title': 'CIRT miforona ekipa',
     'hero.slide4.subtitle': 'Mankanesa aminay',
     'hero.learnMore': 'Hamaky ny lahatsoratra',
     'hero.visitSite': 'Tsidiho ny tranonkala',
@@ -152,7 +152,7 @@ const Hero = () => {
                 }`}
               >
                 <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></div>
-                <span className="text-sm font-semibold text-white tracking-wide">Unité de Gouvernance Digitale</span>
+                <span className="text-sm font-semibold text-white tracking-wide">CIRT</span>
               </div>
 
               {/* Title with professional typography */}

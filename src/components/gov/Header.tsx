@@ -9,6 +9,9 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import SearchModal from './SearchModal';
+import Logo from '../../assets/logo.png';
+
+
 
 const languageLabels: Record<Language, string> = {
   fr: 'Français',
@@ -213,8 +216,11 @@ const Header = () => {
               className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 rounded-lg"
               aria-label={t('header.home')}
             >
-              <div className="w-11 h-11 bg-primary rounded-xl flex items-center justify-center text-primary-foreground font-bold text-lg transition-transform group-hover:scale-105 group-focus:scale-105">
-              </div>
+              <img
+                src={Logo}
+                alt={t('header.logoAlt') || 'CIRT'}
+                className="w-11 h-11 object-contain rounded-xl transition-transform group-hover:scale-105 group-focus:scale-105"
+              />
               <div className="hidden sm:block">
                 <p className="text-sm font-semibold text-foreground">{t('header.tagline')}</p>
               </div>

@@ -9,7 +9,8 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import SearchModal from './SearchModal';
-import Logo from '../../assets/logo.png';
+import Logo from '../../../public/logo.png';
+
 
 
 
